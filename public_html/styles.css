@@ -48,10 +48,7 @@ article {
     width: 80%;
 }
 section {
-    margin: auto;    
-    width:70%;
-    height: 690px;
-}
-aside{
-    background-color: yellow;
+         text-align: center;
+         background-color: #ededed;
+         padding: 5px;         
 }
