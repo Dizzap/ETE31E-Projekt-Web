@@ -3,10 +3,11 @@ body {
 }
 a {
     text-decoration: none!important;
-    color: white;    
+    color: white; 
+    transition: color 0.47s, font-style 0.47s;
 }
 a:hover{ 
-    
+    font-style: italic;        
 }
 ul{
     list-style-type: none;  
@@ -16,7 +17,7 @@ ul{
 li {
     display: inline;
     text-align: center;
-    padding: 10px;
+    padding: 10px;  
     margin: auto;
 }
 nav {
