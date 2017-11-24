@@ -4,10 +4,13 @@ body {
 a {
     text-decoration: none!important;
     color: white; 
-    transition: color 0.47s, font-style 0.47s;
+    transition: color 0.47s ease-in-out, font-style 0.47s, border 1.5s, padding 1.5s;
 }
 a:hover{ 
-    font-style: italic;        
+    font-style: italic;   
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
 }
 ul{
     list-style-type: none;  
