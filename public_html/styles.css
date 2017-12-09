@@ -1,3 +1,8 @@
+@media screen and (max-width: 1000px) {
+    section{
+		font-size:2em;  
+    }
+}
 body {
    background-image: url(../graphics/dark_blue_to_light.bmp); 
    background-size: cover;
@@ -21,9 +26,15 @@ a {
     color: white; 
     transition: color 0.47s ease-in-out, font-size 0.47s, padding 1.5s;
 }
+a:focus{ 
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.1em; 
+    font-weight: bold;
+}
 a:hover{ 
-    padding: 8px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
     font-size: 1.1em; 
     font-weight: bold;
 }
@@ -32,13 +43,12 @@ ul{
     margin: auto;
     text-align: left;
 }
-li {
+li{
     display: inline;
     text-align: center;
     padding: 10px;  
     margin: auto;
 }
-
 .mainli{
     font-size: 2.2em;    
 }
