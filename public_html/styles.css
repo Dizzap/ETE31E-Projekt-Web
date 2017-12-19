@@ -3,14 +3,19 @@
 		font-size:2em;  
     }
 }
+@font-face {
+    font-family: moonhouse;
+    src: url(moonhouse.ttf) format('truetype');
+}
 body {
    background-image: url(../graphics/dark_blue_to_light.bmp); 
-   background-size: cover;
+   background-size: cover;   
+   font-size: 1.6em;
 }
 nav {
     width: 100%;
     transition: background 0.5s ease-in-out;
-    border-radius:6px 6px 0px 0px;    
+    border-radius:6px 6px 0px 0px;
 }
 nav:hover {
     background-color: #ededed;
@@ -38,22 +43,26 @@ a:hover{
     font-size: 1.1em; 
     font-weight: bold;
 }
-ul{
+li {
+    padding-bottom: 20px;
+}
+nav ul{
     list-style-type: none;  
     margin: auto;
     text-align: left;
 }
-li{
+nav li{
     display: inline;
     text-align: center;
     padding: 10px;  
     margin: auto;
 }
 .mainli{
-    font-size: 2.2em;    
+    font-size: 2.2em;  
+    font-family: moonhouse;
 }
 .leftli{
-    margin: auto auto auto 42%;
+    margin: auto auto auto 27%;
 }
 div {
     text-align: center;
@@ -78,8 +87,7 @@ header {
 }
 article {
     text-align: center;
-    margin: auto;    
-    width: 80%;
+    margin: auto;
 }
 section {
          text-align: center;
@@ -87,8 +95,26 @@ section {
          padding: 5px;  
          border-radius: 6px;
          transition: border-radius 0.7s;
+         height: 70%;
+         font-size: 1.1em;
+         height: 700px;
 }
 .moonh2{
     font-family: moonhouse;
     font-size: 70px;
+    text-align: center;
+}
+img {
+    transition: opacity 0.2s, border 0.1s;
+}
+img:hover{
+    opacity: 0.7;
+    border: solid 3px black;
+}
+h2 {
+    font-size: 50px;
+}
+.imgli {
+    margin: auto;
+    padding-left: 13%;
 }
