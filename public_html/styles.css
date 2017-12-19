@@ -94,6 +94,7 @@ section {
          transition: border-radius 0.7s;
          height: 70%;
          font-size: 1.4em;
+         height: 700px;
 }
 .moonh2{
     font-family: moonhouse;
