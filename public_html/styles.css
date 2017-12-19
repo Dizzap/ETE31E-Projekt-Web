@@ -130,7 +130,7 @@ h4 {
         margin: auto;
      }    
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) and (min-width: 801px){
     .leftli{
             margin: auto;
         }
