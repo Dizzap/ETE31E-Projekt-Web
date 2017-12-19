@@ -1,8 +1,3 @@
-@media screen and (max-width: 1000px) {
-    section{
-		font-size:2em;  
-    }
-}
 @font-face {
     font-family: moonhouse;
     src: url(moonhouse.ttf) format('truetype');
@@ -101,11 +96,6 @@ section {
          font-size: 1.1em;
          height: 700px;
 }
-.moonh2{
-    font-family: moonhouse;
-    font-size: 70px;
-    text-align: center;
-}
 img {
     transition: opacity 0.2s, border 0.1s;
 }
@@ -115,8 +105,50 @@ img:hover{
 }
 h2 {
     font-size: 50px;
+    font-family: moonhouse;
+    text-align: center;
 }
 .imgli {
     margin: auto;
     padding-left: 13%;
+}
+@media screen and (max-width: 1500px) and (min-width: 1201px){
+    .leftli{
+            margin: auto auto auto 10%;
+        }
+}
+@media screen and (max-width: 1200px) and (min-width: 1001px){
+    .leftli{
+        margin: auto;
+     }    
+}
+@media screen and (max-width: 1000px){
+    .leftli{
+            margin: auto;
+        }
+}
+@media screen and (max-width: 800px) {
+    h2{
+        font-size: 2em;
+    }   
+    nav ul{
+        list-style-type: none;  
+        margin: auto;
+        text-align: left;
+    }
+    nav li{
+        display: inline;
+        text-align: center;
+        padding: 10px;  
+        margin: auto;
+    }
+    .leftli{
+        margin: auto;
+    }
+    .mainli{
+        font-size: 1.5em;
+        font-family: sans-serif;
+        margin: auto;
+        padding: auto;
+    }
 }
