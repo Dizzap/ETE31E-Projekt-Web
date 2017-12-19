@@ -56,7 +56,8 @@ nav li{
     margin: auto;
 }
 .mainli{
-    font-size: 2.2em;    
+    font-size: 2.2em;  
+    font-family: moonhouse;
 }
 .leftli{
     margin: auto auto auto 33%;
