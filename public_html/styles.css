@@ -1,60 +1,4 @@
-@media screen and (max-width: 800px) {
-    section{
-	font-size:2em;  
-    }
-    nav {
-    width: 100%;
-    transition: background 0.5s ease-in-out;
-    border-radius:6px 6px 0px 0px;
-    }
-    nav:hover {
-        background-color: #ededed;
-    }
-    nav:hover a {
-        color: black;    
-    }
-    nav:hover ~ #c{    
-        border-radius: 0px 0px 6px 6px;
-    }
-    a {
-        text-decoration: none!important;
-        color: white; 
-        transition: color 0.47s ease-in-out, font-size 0.47s, padding 1.5s;
-    }
-    a:focus{ 
-        padding: 0px;
-        margin: 0px;
-        font-size: 1.1em; 
-        font-weight: bold;
-    }
-    a:hover{ 
-        padding: 0px;
-        margin: 0px;
-        font-size: 1.1em; 
-        font-weight: bold;
-    }
-    li {
-        padding-bottom: 20px;
-    }
-    nav ul{
-        list-style-type: none;  
-        margin: auto;
-        text-align: left;
-    }
-    nav li{
-        display: inline;
-        text-align: center;
-        padding: 10px;  
-        margin: auto;
-    }
-    .mainli{
-        font-size: 2em;  
-        font-family: moonhouse;
-    }
-    .leftli{
-        margin: auto;
-    }
-}
+
 @font-face {
     font-family: moonhouse;
     src: url(moonhouse.ttf) format('truetype');
@@ -169,4 +113,41 @@ h2 {
 .imgli {
     margin: auto;
     padding-left: 13%;
+}
+@media screen and (max-width: 1500px) and (min-width: 1200px){
+    .leftli{
+            margin: auto auto auto 10%;
+        }
+}
+@media screen and (max-width: 1000px){
+    .leftli{
+            margin: auto;
+        }
+}
+@media screen and (max-width: 800px) {
+    section{       
+    }
+    nav {
+    width: 100%;
+    transition: background 0.5s ease-in-out;
+    border-radius:6px 6px 0px 0px;
+    }
+    nav ul{
+        list-style-type: none;  
+        margin: auto;
+        text-align: left;
+    }
+    nav li{
+        display: inline;
+        text-align: center;
+        padding: 10px;  
+        margin: auto;
+    }
+    .mainli{
+        font-size: 2em;  
+        font-family: moonhouse;
+    }
+    .leftli{
+        margin: auto;
+    }
 }
