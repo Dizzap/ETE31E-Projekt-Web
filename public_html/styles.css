@@ -3,6 +3,10 @@
 		font-size:2em;  
     }
 }
+@font-face {
+    font-family: moonhouse;
+    src: url(moonhouse.ttf) format('truetype');
+}
 body {
    background-image: url(../graphics/dark_blue_to_light.bmp); 
    background-size: cover;   
@@ -115,8 +119,4 @@ h2 {
 .imgli {
     margin: auto;
     padding-left: 13%;
-}
-@font-face {
-    font-family: Moonhouse;
-    src: url(../graphics/moonhouse.ttf);
 }
