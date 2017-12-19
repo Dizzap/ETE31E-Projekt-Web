@@ -39,10 +39,10 @@ a:hover{
     font-weight: bold;
 }
 ul{
-    list-style-type: none;
+    
 }
 li {
-    padding-bottom: 20px;
+    text-align:
 }
 nav ul{
     list-style-type: none;  
@@ -98,6 +98,7 @@ section {
 .moonh2{
     font-family: moonhouse;
     font-size: 70px;
+    text-align: center;
 }
 img {
     transition: opacity 0.2s, border 0.1s;
