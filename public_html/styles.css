@@ -10,6 +10,7 @@
 body {
    background-image: url(../graphics/dark_blue_to_light.bmp); 
    background-size: cover;   
+   font-size: 1.6em;
 }
 nav {
     width: 100%;
@@ -61,7 +62,7 @@ nav li{
     font-family: moonhouse;
 }
 .leftli{
-    margin: auto auto auto 33%;
+    margin: auto auto auto 27%;
 }
 div {
     text-align: center;
@@ -95,7 +96,7 @@ section {
          border-radius: 6px;
          transition: border-radius 0.7s;
          height: 70%;
-         font-size: 1.4em;
+         font-size: 1.1em;
          height: 700px;
 }
 .moonh2{
