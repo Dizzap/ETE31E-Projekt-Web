@@ -5,12 +5,12 @@
 }
 body {
    background-image: url(../graphics/dark_blue_to_light.bmp); 
-   background-size: cover;
+   background-size: cover;   
 }
 nav {
     width: 100%;
     transition: background 0.5s ease-in-out;
-    border-radius:6px 6px 0px 0px;    
+    border-radius:6px 6px 0px 0px;
 }
 nav:hover {
     background-color: #ededed;
@@ -39,11 +39,17 @@ a:hover{
     font-weight: bold;
 }
 ul{
+    
+}
+li {
+    text-align:
+}
+nav ul{
     list-style-type: none;  
     margin: auto;
     text-align: left;
 }
-li{
+nav li{
     display: inline;
     text-align: center;
     padding: 10px;  
@@ -87,10 +93,13 @@ section {
          border-radius: 6px;
          transition: border-radius 0.7s;
          height: 70%;
+         font-size: 1.4em;
+         height: 700px;
 }
 .moonh2{
     font-family: moonhouse;
     font-size: 70px;
+    text-align: center;
 }
 img {
     transition: opacity 0.2s, border 0.1s;
