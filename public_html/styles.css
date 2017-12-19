@@ -42,7 +42,7 @@ ul{
     
 }
 li {
-    text-align:
+    padding-bottom: 20px;
 }
 nav ul{
     list-style-type: none;  
@@ -111,4 +111,8 @@ img:hover{
 }
 h2 {
     font-size: 50px;
+}
+.imgli {
+    margin: auto;
+    padding-left: 13%;
 }
