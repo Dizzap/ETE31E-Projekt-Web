@@ -3,7 +3,7 @@
     src: url(moonhouse.ttf) format('truetype');
 }
 body {
-   background-image: url(../graphics/dark_blue_to_light.jpg); 
+   background-image: url(graphics/dark_blue_to_light.jpg); 
    background-size: cover;   
    font-size: 1.6em;
 }
