@@ -1,2 +1,2 @@
 # ETE31E-Web
-Semestrální projekt na ETE31E-Webdesign
+Semestrální projekt na ETE31E-Webdesign. Skupinová práce.
